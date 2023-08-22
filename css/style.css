@@ -154,7 +154,7 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    background: #4caf4f;
+    background: #ef0000;
     padding: 10px 20px;
     border: 2px solid transparent;
     transition: all .2s linear;
@@ -162,10 +162,10 @@ button {
 }
 
 .header__btn-sign:hover {
-    border: 2px solid #4CAF4F;
+    border: 2px solid #ef0000;
     transition: all .2s linear;
     background: transparent;
-    color: #4CAF4F;
+    color: #ef0000;
 
 }
 
