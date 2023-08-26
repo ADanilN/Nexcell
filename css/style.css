@@ -20,27 +20,21 @@ button {
     padding-top: 22px;
 }
 
-.conteiner {
+.container {
     max-width: 1152px;
     margin: 0 auto;
 }
 
-@media (max-widht: 1152px) {
-    .conteiner {
-        max-width: 970px;
-        font-size: 16px;
-    }
+.conteiner {
+    max-width: 1152px;
+    display: flex;
+    justify-content: space-between;
 }
-@media (max-widht: 992px) {
-    .conteiner {
-        max-width: 750px;
-        font-size: 14px;
-    }
-}
-@media (max-widht: 767px) {
-    .conteiner {
-        max-width: 650px;
-        font-size: 12px;
+
+@media (max-width: 1151px) {
+    .container {
+        max-width: 90%;
+       
     }
 }
 
@@ -289,14 +283,10 @@ button {
     display: inline-block;
 }
 
-#conteiner {
-    max-width: 1152px;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .section__illustration {
-    margin-left: 100px;
+    display: inline-block;
     animation: section__illustration 2s linear;
 } 
 
@@ -365,25 +355,6 @@ button {
     align-items: center;
 }
 
-media (max-wight: 1152px) {
-    .box {
-        max-width: 970px;
-        font-size: 16px;
-    }
-}
-@media (max-wight: 992px) {
-    .box {
-        max-width: 750px;
-        font-size: 14px;
-    }
-}
-@media (max-wight: 767px) {
-    .box {
-        max-width: 650px;
-        font-size: 12px;
-    }
-}
-
 .row {
     display: flex;
     width: 299px;
@@ -428,23 +399,18 @@ media (max-wight: 1152px) {
 
 #pixelgrade {
     margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .pixelgrade {
-    max-width: 1152px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 144px;
-    margin: 0 auto;
     margin-bottom: 48px;
-    
-}
-
-.textblock {
-    width: 601px;
 }
 
 .text4 {
+    max-width: 422px;
     color: #4D4D4D;
     font-family: Inter;
     font-size: 36px;
@@ -454,6 +420,7 @@ media (max-wight: 1152px) {
 }
 
 .text4p {
+    max-width: 422px;
     color: #717171;
     font-family: Inter;
     font-size: 14px;
@@ -816,6 +783,7 @@ media (max-wight: 1152px) {
     max-width: 1152px;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     gap: 125px;
     margin: 0 auto;
 }
